@@ -1,66 +1,66 @@
-body {
-    font-family: sans-serif;
+
+.main{
+    border: 5px solid rgb(120, 87, 87);
+    width: fit-content;
+    margin: 0 auto;
     background-color: #222;
-    color: #fff;
-  }
-  
-  header {
-    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    border-radius: 3px 3px 3px 3px;
+
+    
+}
+.result{
+    width: 95%;
     background-color: darkgray;
-  }
-  
-  header h1 {
-    font-size: 2em;
-  }
-  
-  header p {
-    font-size: 1.5em;
-  }
-  
-  #about img {
-    float: left;
-    margin-right: 10px;
-  }
-  
-  #about p {
-    font-size: 1.2em;
-  }
-  
-  #skills ul {
-    list-style-type: disc;
-    margin-left: 20px;
-  }
-  
-  #projects ul {
-    list-style-type: none;
-  }
-  
-  #projects li {
-    margin-bottom: 10px;
-  }
-  
-  #projects h3 {
-    font-size: 1.5em;
-  }
-  
-  #projects p {
-    font-size: 1em;
-  }
-  
-  #resume p {
-    text-align: center;
-  }
-  
-  #contact ul {
-    list-style-type: none;
-  }
-  
-  #contact li {
-    margin-bottom: 5px;
-  }
-  
-  footer {
-    text-align: center;
-    font-size: 0.8em;
-  }
-  
+    color: #fff;
+    border-radius: 2px 2px 2px 2px;
+    margin: 2px 2px 2px 2px;
+}
+
+.clear{
+    background-color: darkgray;
+    color: #222;
+    width: 97%;
+    font-weight: 600;
+    margin-left: 3px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.btn{
+    background: darkgray;
+    color: #222;
+    margin-top: 5px;
+    width: 60px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    cursor:crosshair;
+    transition: all 0.3s;
+    
+}
+.btn:hover{
+    background: #222;
+    color: #fff;
+}
+
+.clear:hover{
+    background: #222;
+    color: #fff;
+}
+.halfbtn{
+    background: darkgray;
+    color: #222;
+    margin-top: 5px;
+    width: 60px;
+    margin-left: 71px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    cursor: crosshair
+}
+
+.halfbtn:hover{
+    background: #222;
+    color: #fff;
+}

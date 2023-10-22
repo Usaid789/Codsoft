@@ -1,67 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-  <title>My Portfolio</title>
+    <title>Calculator</title>
 </head>
 <body>
-
-  <header>
-    <h1>Muhammad Usaid Siddiqui</h1>
-    <p>Web Developer</p>
-  </header>
-
-  <section id="about">
-    <img src="image.jpg" alt="My Photo">
-    <p>I am a web developer with a passion for creating clean, user-friendly websites. I have been working in the web development industry for 5 years, and I have a deep understanding of HTML, CSS, and JavaScript. I am also proficient in a number of front-end frameworks, such as Bootstrap and React.js.</p>
-  </section>
-
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>Bootstrap</li>
-      <li>React.js</li>
-    </ul>
-  </section>
-
-  <section id="projects">
-    <h2>Projects</h2>
-    <ul>
-      <li>
-        <h2>Calculator</h2>
-        <p>The Simple Calculator App is a user-friendly web application that enables users to perform basic mathematical operations such as addition, subtraction, multiplication, and division. 
-        It provides an intuitive and visually appealing user interface created with HTML and CSS, making it easy for users to input numbers and perform calculations.</p>
-      </li>
-      <li>
-        <h2>Todo App</h2>
-        <p>The To-Do App is a user-friendly web application that simplifies task management. 
-          Built with HTML and CSS, it provides an easy-to-use interface for adding, editing, and marking tasks as complete. 
-          This minimalist and visually appealing app helps users stay organized, making it a valuable tool for keeping track of daily tasks and boosting productivity.
-  </p>
-      </li>
-      
-    </ul>
-  </section>
-
-  <section id="resume">
-    <h2>Resume</h2>
-    <p>Download my resume <a href="file:///C:/Users/dmf.1/Desktop/M.Usaid's.Resume">here</a>.</p>
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <ul>
-      <li>Email: john.doe@example.com</li>
-      <li>Phone: 123-456-7890</li>
-    </ul>
-  </section>
-
-  <footer>
-    <p>Copyright &copy; 2023 Muhammad Usaid Siddiqui</p>
-  </footer>
-
+    <script src="app.js"></script>
+    <div class="main">
+        <div>
+            <input id= "result"  class="result" type="text">
+        </div>
+        <div>
+        <button onclick="clearResult()" id="result" class="clear">C</button>
+    </div>
+    <div>
+        <button onclick="getNumber('7')" class="btn">7</button>
+        <button onclick="getNumber('8')" class="btn">8</button>
+        <button onclick="getNumber('9')" class="btn">9</button>
+        <button onclick="getNumber('*')" class="btn">X</button>
+    </div>
+    <div>
+        <button onclick="getNumber('4')" class="btn">4</button>
+        <button onclick="getNumber('5')" class="btn">5</button>
+        <button onclick="getNumber('6')" class="btn">6</button>
+        <button onclick="getNumber('-')" class="btn">-</button>
+    </div>
+    <div>
+        <button onclick="getNumber('1')" class="btn">1</button>
+        <button onclick="getNumber('2')" class="btn">2</button>
+        <button onclick="getNumber('3')" class="btn">3</button>
+        <button onclick="getNumber('+')" class="btn">+</button>
+    </div>
+    <div>
+        <button onclick="getNumber('0')" class="btn">0</button>
+        <button onclick="getNumber('/')" class="btn">/</button>
+        <button onclick="getResult()" class="halfbtn">=</button>
+    </div>
+</div>
 </body>
 </html>
